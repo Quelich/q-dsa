@@ -10,11 +10,14 @@ namespace DataStrutures {
 
             var bubble = sol.BubbleSort (arr);
             var selection = sol.SelectionSort (arr);
+            var insertion = sol.InsertionSort (arr);
 
             System.Console.WriteLine ("Bubble Sort");
             System.Console.WriteLine (string.Join (",", bubble));
             System.Console.WriteLine ("Selection Sort");
             System.Console.WriteLine (string.Join (",", selection));
+            System.Console.WriteLine("Insertion Sort");
+            System.Console.WriteLine(string.Join(",", insertion));
         }
     }
 }
