@@ -1,23 +1,31 @@
 ﻿using System;
 using DataStructures;
 
-namespace DataStrutures {
-    internal class Program {
-        static void Main (string[] args) {
+namespace DataStrutures
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
 
-            var sol = new SortAlgorithms ();
-            var arr = new int[] { 20, 35, -15, 7, 55, 1, -22 };
-
-            var bubble = sol.BubbleSort (arr);
-            var selection = sol.SelectionSort (arr);
-            var insertion = sol.InsertionSort (arr);
-
-            System.Console.WriteLine ("Bubble Sort");
-            System.Console.WriteLine (string.Join (",", bubble));
-            System.Console.WriteLine ("Selection Sort");
-            System.Console.WriteLine (string.Join (",", selection));
-            System.Console.WriteLine("Insertion Sort");
-            System.Console.WriteLine(string.Join(",", insertion));
+            var janeJones = new Employee("Jane", "Jones", 123);
+            var johnDoer = new Employee("John", "Doer", 4567);
+            var marySmith = new Employee("Mary", "Smith", 22);
+            var mikeWilson = new Employee("Mike", "Wilson", 3245);
+            var employees = new EmployeeDoublyLinkedList();
+            employees.AddToFront(janeJones);
+            employees.AddToFront(johnDoer);
+            employees.AddToFront(marySmith);
+            employees.AddToFront(mikeWilson);
+            employees.PrintList();
+            System.Console.WriteLine(employees.GetSize());
+            var billEnd = new Employee("Bill", "End", 56);
+            employees.AddToEnd(billEnd);
+            employees.PrintList();
+            System.Console.WriteLine(employees.GetSize());
+            employees.RemoveFromFront();
+            employees.PrintList();
+            System.Console.WriteLine(employees.GetSize());
         }
     }
 }

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "WWcoIUX4lWH9QpW32CNmNZNCbbNFx8C35XXSY/tXozqobCE0ol8rd4HEmrbr5Yj+GPz+Uh8CS4d/OfL3v24VtA==",
+  "dgSpecHash": "iFPkB1L0+9EwRrYQ0GiTpR5HsekmCmFwD9UmKoCURwC1diQFB57UsINemwYZdRTizOrSy1ZhubZNTSXvgS+rnA==",
   "success": true,
-  "projectFilePath": "D:\\1LocalWorkspace\\DataStrutures\\DataStrutures.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\1LocalWorkspace\\DataStructures\\DataStrutures.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
   "logs": []
 }
