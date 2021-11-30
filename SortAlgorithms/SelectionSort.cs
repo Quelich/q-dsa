@@ -8,6 +8,7 @@ namespace Datastructures
             var largestIndex = 0;
             var temp = 0;
             for (var j = unsortedPartitionIndex; j > 0; j--) {
+                // find the largest element in the unsorted partition
                 for (var i = 1; i < unsortedPartitionIndex; i++) {
                     if (array[i] >= array[largestIndex]) {
                         largestIndex = i;
