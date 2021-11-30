@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\1LocalWorkspace\\DataStructures\\DataStrutures.csproj",
-      "projectName": "DataStrutures",
-      "projectPath": "D:\\1LocalWorkspace\\DataStructures\\DataStrutures.csproj",
+      "projectUniqueName": "D:\\1LocalWorkspace\\DataStructures\\DataStructures.csproj",
+      "projectName": "DataStructures",
+      "projectPath": "D:\\1LocalWorkspace\\DataStructures\\DataStructures.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
       "outputPath": "D:\\1LocalWorkspace\\DataStructures\\obj\\",
       "projectStyle": "PackageReference",

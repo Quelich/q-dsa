@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "DataStrutures/1.0.0": {
+      "DataStructures/1.0.0": {
         "runtime": {
           "DataStrutures.dll": {}
         }
@@ -14,7 +14,7 @@
     }
   },
   "libraries": {
-    "DataStrutures/1.0.0": {
+    "DataStructures/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
