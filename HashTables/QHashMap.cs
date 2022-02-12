@@ -57,7 +57,7 @@ namespace DataStructures
             var idx = Search(key);
             if (idx != -1)
             {   
-                return values[idx] == null ? "null" : values[idx].ToString();
+                return values[idx] == null ? "null" : values[idx]!.ToString()!;
             }
             Console.Error.Write("Could not find key");
             return "";
