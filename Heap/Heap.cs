@@ -1,6 +1,8 @@
 using System;
 //TODO make this a generic class
-public class Heap
+namespace DataStructures
+{
+    public class Heap
 {
     private int[] _Heap;
     private int Size;
@@ -144,4 +146,5 @@ public class Heap
         }
         Console.WriteLine();
     }
+}
 }
